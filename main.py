@@ -1,3 +1,5 @@
+print("New version v1")
+#test
  print(f"Сортировка по стипендии: {reader.grant_sorting('grant')}")
     print(f"Сортировка по стипендии, которая больше value
 {reader.grant_more_than_sorting('grant','2000')}")
@@ -6,7 +8,7 @@
     for i in reader:
         print(i)
 
-    print('=' * 20)
+    print('=' * 21)
 
     print('Генератор')
     for i in reader.generator():
