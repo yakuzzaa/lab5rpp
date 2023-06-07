@@ -1,5 +1,6 @@
-print("New version v1")
-#test
+
+print("Version 2")
+
  print(f"Сортировка по стипендии: {reader.grant_sorting('grant')}")
     print(f"Сортировка по стипендии, которая больше value
 {reader.grant_more_than_sorting('grant','2000')}")
@@ -14,7 +15,6 @@ print("New version v1")
     for i in reader.generator():
         print(i)
 
-    print('=' * 20)
 
     fio, grant, destination = input('Введите новые данные(ФИО, стипендия, назначение справки:
 ').split()
