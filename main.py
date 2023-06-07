@@ -12,8 +12,8 @@
     for i in reader.generator():
         print(i)
 
-    print('=' * 20000)
 
+    print('=' * 20000)
     fio, grant, destination = input('Введите новые данные(ФИО, стипендия, назначение справки:
 ').split()
     reader.new_entry(fio, grant, destination)
